@@ -1,6 +1,6 @@
 def mutate_string(string, position, character):
-    return
-    string = string[:i] + "c" + string[i+1:]
+    string1 = string[:position] + character + string[position+1:]
+    return string1
 if __name__ == '__main__':
     s = input()
     i, c = input().split()
